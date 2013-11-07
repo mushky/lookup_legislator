@@ -3,18 +3,22 @@
   <head>
   	<script src="../legislators/js/jquery-1.10.2.js"></script>
     <script src="../legislators/js/script.js"></script>
+    <link href="../legislators/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../legislators/css/styles.css" rel="stylesheet" type="text/css" media="all">
   	<title> Look up your legislators</title>
   </head>
   <body>
+    <div class="container">
   	<h1> Look up your legislators </h1>
-
-  	<form id="get-zip">
-  	  <label for="zip">Enter your zip code:</label>
-  	  <input id="zip" type="text">
-  	  <button type="submit">Look up</button>
+    <div class="form-inline">
+  	  <form id="get-zip">
+  	    <label for="zip">Enter your zip code:</label>
+  	    <input id="zip" type="text">
+  	    <div class="btn-btn-default"><button type="submit">Look up</button></div>
   	</form>
-
+    </div>
   	<ul id="legislators">
   	</ul>
+  </div>
   </body>
 </html>
