@@ -1,3 +1,8 @@
 h1 {
-	font-style: sans-serif;
+	font-family: monospace;
+	padding-bottom: 20px;
+}
+
+.spacing {
+	letter-spacing: 3px;
 }
